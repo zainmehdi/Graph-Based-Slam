@@ -1,0 +1,8 @@
+<launch>
+
+
+<node pkg="g2o_playground" type="scan_match_odom" name="SubscribeAndPublish">
+  <remap from="bablu" to="g2o_graph_se2"/>
+</node>
+
+</launch>

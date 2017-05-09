@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Read_bag.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/scan_match_odom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake_modules/FindCSparse.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake_modules/FindG2O.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package.xml" isTestSource="false" />
+    </content>
+    <content url="file:///usr/src/gtest">
+      <sourceFolder url="file:///usr/src/gtest/src/gtest_main.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/src/gtest-all.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/cmake/internal_utils.cmake" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///opt/ros/indigo/include" />
+          <root url="file://$USER_HOME$/g2o-master" />
+          <root url="file://$MODULE_DIR$/../pose_cov_ops/include/pose_cov_ops" />
+          <root url="file://$MODULE_DIR$/../../devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/Release/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/Debug/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/RelWithDebInfo/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/MinSizeRel/devel/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///opt/ros/indigo/include" />
+          <root url="file://$USER_HOME$/g2o-master" />
+          <root url="file://$MODULE_DIR$/../pose_cov_ops/include/pose_cov_ops" />
+          <root url="file://$MODULE_DIR$/../../devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/Release/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/Debug/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/RelWithDebInfo/devel/include" />
+          <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/g2o_playground-1c4f866/1c4f866/MinSizeRel/devel/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,14 @@
+<!-- Launch file for running local map (occupancy grid map)  -->
+
+<launch>
+
+<node pkg="local_map" type="local_map" name="local_map">
+  <remap from="local_map/scan" to="laser_scan"/>
+</node>
+
+<node pkg="tf" type="static_transform_publisher" name="base_link_to_laser"
+    args="0.0 0.0 0.0 0.0 0.0 0.0 local_map/local_map /laser 40" /> 
+
+<node pkg="rosbag" type="play" name="play"
+    args="$(find laser_scan_matcher)/demo/koreatech_1st_engineering.bag --clock"/>
+</launch>
